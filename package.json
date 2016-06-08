@@ -1,0 +1,38 @@
+{
+  "name": "faker-datastore",
+  "version": "0.1.0",
+  "description": "thin wrapper of Faker module to simulate a datastore",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mperdikeas/faker-datastore.git"
+  },
+  "keywords": [
+    "fake",
+    "datastore",
+    "mock"
+  ],
+  "author": "Menelaus Perdikeas",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.1",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2016": "^6.0.11",
+    "babel-runtime": "^6.9.2"
+  },
+  "dependencies": {
+    "Faker": "^0.7.2",
+    "babel-polyfill": "^6.9.1",
+    "source-map-support": "^0.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mperdikeas/faker-datastore/issues"
+  },
+  "homepage": "https://github.com/mperdikeas/faker-datastore#readme"
+}
