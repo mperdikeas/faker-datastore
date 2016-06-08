@@ -12,7 +12,31 @@ ds.get(100); // null
 ds.get(13); // consistently fetches the same piece of data simulating a datastore
 ```
 
-const 
+The datastore hosts objects of the following type:
+
+```javascript
+class Address {
+    constructor(usState, city, streetName, streetAddress) {
+        this.usState       = usState;
+        this.city          = city;
+        this.streetName    = streetName;
+        this.streetAddress = streetAddress;
+    }
+}
+
+
+class Person {
+    constructor(fname, lname, email, dateOfBirth, address) {
+        this.fname       = fname;
+        this.lname       = lname;
+        this.email       = email;
+        this.dateOfBirth = dateOfBirth;
+        this.address     = address;
+    }
+}
+```
+
+
 
 
 ## Tests
