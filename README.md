@@ -26,3 +26,4 @@ const
 ## Release History
 
 * 0.1.0 &nbsp;&nbsp;&nbsp; Initial release
+* 0.1.1 &nbsp;&nbsp;&nbsp; fixed sizing bug

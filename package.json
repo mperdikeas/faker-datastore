@@ -1,6 +1,6 @@
 {
   "name": "faker-datastore",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "thin wrapper of Faker module to simulate a datastore",
   "main": "lib/index.js",
   "scripts": {
