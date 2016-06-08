@@ -12,7 +12,7 @@ ds.get(100); // null
 ds.get(13); // consistently fetches the same piece of data simulating a datastore
 ```
 
-The datastore hosts objects of the following type:
+The datastore hosts **Person** objects according to the following types:
 
 ```javascript
 class Address {
