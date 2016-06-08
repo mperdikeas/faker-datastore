@@ -43,7 +43,7 @@ class FakeDataStore {
             const person = new Person(faker.Name.firstName()
                                       , faker.Name.lastName()
                                       , faker.Internet.email()
-                                      , faker.Date.recent(365*100)
+                                      , new Date(faker.Date.recent(365*100))
                                       , address);
             this.data[idx] = person;
         }

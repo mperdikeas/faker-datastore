@@ -30,7 +30,7 @@ class Person {
         this.fname       = fname;
         this.lname       = lname;
         this.email       = email;
-        this.dateOfBirth = dateOfBirth;
+        this.dateOfBirth = dateOfBirth; // this is an actual Date object
         this.address     = address;
     }
 }
@@ -51,3 +51,4 @@ class Person {
 
 * 0.1.0 &nbsp;&nbsp;&nbsp; Initial release
 * 0.1.1 &nbsp;&nbsp;&nbsp; fixed sizing bug
+* 2.0.0 &nbsp;&nbsp;&nbsp; dateOfBirth is now an actual Date object
